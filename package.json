@@ -2,6 +2,7 @@
   "name": "lokesh-portfolio",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://Lokesh1509.github.io/lokesh-portfolio",
   "dependencies": {
     "framer-motion": "^10.0.0",
     "react": "^18.2.0",
