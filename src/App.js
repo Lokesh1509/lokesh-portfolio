@@ -15,14 +15,14 @@ function App() {
       summary: "Classifies images as real or forged using CNN.",
       description:
         "Built with Meso4 CNN to detect forged images. Tkinter GUI and real-time image upload with prediction.",
-      image: "/assets/project1.png",
+      image: `${process.env.PUBLIC_URL}/assets/project1.png`,
     },
     {
       title: "Network Intrusion Detection",
       summary: "Detects malicious traffic with deep learning.",
       description:
         "CNN + LSTM + XGBoost on CIC-IDS 2017 dataset with Flask UI to detect intrusion in unbalanced network data.",
-      image: "/assets/project2.png",
+      image: `${process.env.PUBLIC_URL}/assets/project2.png`,
     },
   ];
 
@@ -30,7 +30,7 @@ function App() {
     {
       title: "Cyber Security Intern",
       org: "Fortinet Security (AICTE)",
-      logo: "/assets/Fortinet-logo.png",
+      logo: `${process.env.PUBLIC_URL}/assets/Fortinet-logo.png`,
       duration: "July 202X – Sept 202X",
       summary: "Worked on SIEM tools, pen testing & firewalls.",
       description:
@@ -67,7 +67,7 @@ function App() {
       <header className="fixed top-0 w-full z-50 bg-black text-white shadow-md">
         <nav className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
          <img
-  src="/assets/ls-logo.png"
+  src={`${process.env.PUBLIC_URL}/assets/ls-logo.png`}
   alt="LS Logo"
   className="fixed top-4 left-4 h-12 w-12 rounded-full object-cover border-2 border-white shadow-md z-50"
 />
